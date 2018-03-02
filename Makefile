@@ -1,3 +1,4 @@
+ccflags-y += -Wno-incompatible-pointer-types
 obj-m	+= hid-logitech-hidpp.o
 
 KDIR := /lib/modules/$(shell uname -r)/build
